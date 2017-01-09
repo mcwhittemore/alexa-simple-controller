@@ -15,5 +15,13 @@
     "echo"
   ],
   "author": "Matthew Chase Whittemore",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcwhittemore/alexa-simple-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcwhittemore/alexa-simple-controller/issues"
+  },
+  "homepage": "https://github.com/mcwhittemore/alexa-simple-controller#readme"
 }
