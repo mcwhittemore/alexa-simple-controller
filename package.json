@@ -1,0 +1,19 @@
+{
+  "name": "alexa-simple-controller",
+  "version": "0.0.0",
+  "description": "quickly write lamba powered alexa skills",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/*.test.js"
+  },
+  "keywords": [
+    "alexa",
+    "amazon",
+    "echo"
+  ],
+  "author": "Matthew Chase Whittemore",
+  "license": "MIT"
+}
