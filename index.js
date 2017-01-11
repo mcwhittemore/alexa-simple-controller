@@ -9,9 +9,10 @@ module.exports = function(handlerDir) {
     const handler = `${handlerDir}/${toHandler(opts.name)}`;
 
     try {
-      require(handler)(opts, function(err, say) {
+      require(handler)(opts, function(err, opts) {
         if (err) return callback(err);
-        return callback(null, response({say: say}));
+        var res = typeof opts === 'string' ? {say: opts} : opts;
+        return callback(null, response(res));
       });
     }
     catch (err) {
